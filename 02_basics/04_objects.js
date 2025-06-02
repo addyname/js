@@ -58,4 +58,4 @@ users[1].email
 // console.log(Object.values(tinderUser)); // Returns an array of key/values of the enumerable own properties of an object
 // console.log(Object.entries(tinderUser)); // Returns an array of key/values of the enumerable own properties of an object
 
-console.log(obj1.hasOwnProperty("1")); // Find the property.
+// console.log(obj1.hasOwnProperty("1")); // Find the property.

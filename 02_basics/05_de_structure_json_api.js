@@ -11,3 +11,9 @@ console.log(price)
 
 const {myFullName:FullName} = course // De-Structure or change the property
 console.log(FullName)
+
+// {
+//     "name": "Adnan",
+//     "price": "Free",
+//     "myFullName": "Adnan Ahmad",
+// }

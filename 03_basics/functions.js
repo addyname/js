@@ -27,9 +27,16 @@ function myNumber(number1, number2){
     console.log(number1+number2)
     return number1+number2
 }
-const myNewNumber = myNumber(3,4)
+// const myNewNumber = myNumber(3,4)
 
-console.log("Number:", myNewNumber) // Use "return", if we use variable.
+// console.log("Number:", myNewNumber) // Use "return", if we use variable.
 
-
+function loginUserMessage(username = "User"){ // Use default value
+    if(!username){
+        console.log("PLease enter a username");
+        return
+    }
+    return `${username} just logged in`
+}
+console.log(loginUserMessage())
 

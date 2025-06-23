@@ -5,7 +5,7 @@
     console.log(`DB Connected`)
 }) ();
 
-// Add ";" to work the (IIFE) function. Without it is showing error.
+// Add ";" to work the (IIFE) function before adding more functions. Without it is showing error.
 
 (() => {
     console.log(`DB Connected Two`)

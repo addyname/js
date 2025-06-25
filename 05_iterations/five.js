@@ -1,7 +1,10 @@
 // For each loop
 /*
 Used only with arrays to run a function once for each element.
-
+Syntax:
+item: current element
+index (optional): index of current element
+array (optional): the entire array
 */
 
 const coding = ["js", "ruby", "java", "python", "cpp"]

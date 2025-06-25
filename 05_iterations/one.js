@@ -5,9 +5,10 @@ for (let i = 1; i <= 7; i++) {
     const element = i;
     const name = "Adnan";
     if (element == 3) {
-       // console.log(`My name is ${name}.`)
+        // console.log(`My name is ${name}.`)
+        continue; // Skip adding 3 to the array
     }
-  //  console.log(element)
+    // console.log(element)
 }
 
 for (let i = 1; i <=5 ; i++) {
@@ -37,8 +38,8 @@ for (let b = 1; b <= 10; b++) {
 
 for (let c = 1; c <= 10; c++) {
     if (c == 7) {
-        console.log("Stop on number 7.")
-        continue;
+        console.log("Skip number 7")
+        continue; // Skip the number 7.
     }
     console.log(`Value is ${c}.`)
 }

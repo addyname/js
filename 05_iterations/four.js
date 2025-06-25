@@ -1,4 +1,7 @@
 // For in. This loop is used for Objects.
+// Use it to loop through object keys.
+// Used for objects. Gives you the keys (not values directly)
+
 const myObject = {
     js: 'javascript',
     cpp: 'C++',

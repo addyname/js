@@ -1,4 +1,5 @@
 // for
+// Use it when you know how many times you want to loop (like through array indexes).
 
 for (let i = 1; i <= 7; i++) {
     const element = i;

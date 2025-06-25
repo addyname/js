@@ -42,3 +42,4 @@ const bookInfo = books.filter( (info) => {
     return info.genre == "Non-Fiction" && info.edition < 2000
 } )
 console.log(bookInfo)
+

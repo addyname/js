@@ -1,4 +1,7 @@
 // for of
+// Use it to loop directly through array values (or strings, sets, etc.)
+// Note: Can’t be used on plain objects
+
 let myArray = [1, 2, 3, 4, 5]
 for (const num of myArray) {
     // console.log(`Number are ${num}`)

@@ -1,4 +1,8 @@
 // For each loop
+/*
+Used only with arrays to run a function once for each element.
+
+*/
 
 const coding = ["js", "ruby", "java", "python", "cpp"]
 

@@ -14,7 +14,18 @@
     <body class="bg-black">
     <div >
         <h1  id="title" class="heading">DOM learning on Chai aur code <span style="display: none;">test text</span></h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A ea doloremque in nulla, quisquam sit maiores enim ratione adipisci fugiat iusto necessitatibus atque impedit unde fuga reprehenderit sed. Nemo, distinctio?</p>
+        <h2>Lorem ipsum dolor sit.</h2>
+        <h2>Lorem ipsum dolor sit.</h2>
+        <h2>Lorem ipsum dolor sit.</h2>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <input type="password" name="" id="">
+
+        <ul>
+            <li class="list-item">one</li>
+            <li class="list-item">two</li>
+            <li class="list-item">three</li>
+            <li class="list-item">four</li>
+        </ul>
     </div>
     <script>
         // document.getElementById('title').setAttribute('class', 'test') // Change the class.
@@ -33,6 +44,54 @@
 
         title.innerHTML
         // Output: 'DOM learning on Chai aur code <span style="display: none;">test text</span>'
+
+        /*
+        HTMLCollection
+        querySelector()
+        Returns: The first matching element.
+        Type: Single Element object.
+
+        We can use loop after converting to the array
+        Convert to array
+        const arr = Array.from(nodeListOrHtmlCollection);
+        arr.forEach(...)
+        */
+        document.querySelector('h2')
+        // <h2>Lorem ipsum dolor sit.</h2>
+
+        document.querySelector('#title')
+
+        document.querySelector('.heading')
+
+        document.querySelector('input[type=password]')
+
+        const myul = document.querySelector('ul') // For single attribute
+
+        myul.querySelector('li').style.backgroundColor = 'green'
+        myul.querySelector('li').style.borderRadius = '15px'
+        myul.querySelector('li').style.padding = '10px'
+
+        myul.querySelector('li').innerText = 'Seven'
+        
+        /*
+        NodeList
+
+        querySelectorAll()
+        Returns: All matching elements.
+        Type: A NodeList (which is like an array).
+        */
+
+        document.querySelectorAll('h2')
+        // NodeList(3) [h2, h2, h2] // Select all attributes
+         const newul = document.querySelectorAll('li')
+
+         newul[2].style.backgroundColor = 'red'
+         newul[2].style.borderRadius = '15px'
+         newul[2].style.padding = '10px' // For perticuler li
+
+         newul.forEach((l) => {
+            l.style.color = '#abdbe3'
+         }) // For all li.
 
     </script>
 </body>

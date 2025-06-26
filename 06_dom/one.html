@@ -4,8 +4,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DOM - Document Object Model</title>
+    <style>
+        .bg-black{
+            background-color: #212121;
+            color: #fff;
+        }
+    </style>
 </head>
-<body>
-    
+    <body class="bg-black">
+    <div >
+        <h1  id="title" class="heading">DOM learning on Chai aur code <span style="display: none;">test text</span></h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A ea doloremque in nulla, quisquam sit maiores enim ratione adipisci fugiat iusto necessitatibus atque impedit unde fuga reprehenderit sed. Nemo, distinctio?</p>
+    </div>
+    <script>
+        // document.getElementById('title').setAttribute('class', 'test') // Change the class.
+        
+        // For Styling
+        const title = document.getElementById('title')
+        title.style.backgroundColor = 'green'
+        title.style.borderRadius = '15px'
+        title.style.padding = '10px'
+        
+        title.textContent
+        // Output: 'DOM learning on Chai aur code test text'
+
+        title.innerText
+        // Output: 'DOM learning on Chai aur code'
+
+        title.innerHTML
+        // Output: 'DOM learning on Chai aur code <span style="display: none;">test text</span>'
+
+    </script>
 </body>
 </html>

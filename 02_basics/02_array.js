@@ -15,7 +15,7 @@ const spreadHeros = [...marvel_heros, ...dc_heros] // Spread operator and also p
 const another_array = [1, 2, 3, [4, 5, 6], 7, [6, 7, [4, 5]]]
 
 const real_another_array = another_array.flat(Infinity) // Returns a new array with all sub-array elements concatenated into it recursively up to the specified depth.
-// console.log(real_another_array);
+console.log(real_another_array);
 
 // ----------------------------------- Convert to Array ----------------------------------- //
 

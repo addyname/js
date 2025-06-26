@@ -1,3 +1,8 @@
+/*
+Mutability: Primitive datatypes are immutable (cannot be changed), while non-primitive datatypes are mutable (can be changed).
+Storage: Primitives are stored directly in memory, while non-primitives are stored as references.
+Usage: Primitives are used for simple data storage, whereas non-primitives are used for complex data structures and behaviors.
+*/
 // Primitive Datatypes
 
 // 7 Types: String, Number, Boolean, Null, Undefined, Symbol, BigInt

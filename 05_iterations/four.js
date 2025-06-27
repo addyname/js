@@ -16,7 +16,7 @@ const myObject = {
  const programming = ["js", "rb", "py", "java", "cpp"]
 
  for (const arr in programming) {
-    // console.log(`On the ${arr} position we have placed the ${programming[arr]} language `)
+     console.log(`On the ${arr} position we have placed the ${programming[arr]} language `)
  }
 
 // const map = new Map()

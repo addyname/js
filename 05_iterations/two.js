@@ -1,20 +1,20 @@
 let w = 1
 while (w < 10) {
-    // console.log(`Value is ${w}`)
+// console.log(`Value is ${w}`)
     w = w + 2
 }
 
 let myArray = ["Adnan", "Seemab", "Monis", "Nikhat", "Ravi"]
 let a = 0
 while (a < myArray.length) {
-    // console.log(`${myArray[a]}`);
+    // console.log(myArray[a]);
     a = a + 1
 }
 // Use it when you want to loop until a condition becomes false.
 // Note : Check condition before loop starts.
 // ----------------------------------------------
 
-let score = 1
+let score = 2
 do {
     // console.log(`Score is ${score}`);
     score++
@@ -22,7 +22,7 @@ do {
 
 let Score = 11
 do {
-    console.log(`Score is ${Score}`);
+    //console.log(`Score is ${Score}`);
     Score++
 } while (Score <= 10);
 

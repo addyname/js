@@ -21,7 +21,7 @@ map.set ("USA", "United State Of America")
 map.set ("Fr", "France")
 
 
-// console.log("Country Code".toUpperCase())
+console.log("Country Code".toUpperCase())
 for (const [key, value] of map) {
     // console.log(`${key.toUpperCase()}:- ${value.toUpperCase()}`)
 }

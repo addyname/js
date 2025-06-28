@@ -9,14 +9,14 @@ const myObject = {
     swift: "swift by apple"
 }
  for (const obj in myObject) {
-    // console.log(`${obj} shortend is ${myObject[obj]}`)
+     console.log(`${obj} shortend is ${myObject[obj]}`)
  }
 
  // For Array
  const programming = ["js", "rb", "py", "java", "cpp"]
 
  for (const arr in programming) {
-     console.log(`On the ${arr} position we have placed the ${programming[arr]} language `)
+    //  console.log(`On the ${arr} position we have placed the ${programming[arr]} language `)
  }
 
 // const map = new Map()

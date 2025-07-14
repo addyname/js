@@ -14,7 +14,7 @@ coding.forEach(function(lang){
 })
 
 coding.forEach((item) => {
-    //  console.log(item)
+      console.log(item)
 })
 
 function printMe(lang){

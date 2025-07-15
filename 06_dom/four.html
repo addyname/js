@@ -11,6 +11,53 @@
     </ul>
 </body>
 <script>
-    function addLan
+    function addLanguage(langName) {
+        const li = document.createElement('li')
+        li.innerHTML = `${langName}`
+        const lang = document.querySelector('.language')
+        lang.appendChild(li)
+    }
+    addLanguage('Php'); // 1 way for small projects
+
+    function addOptiLanguage(langName) {
+        const li = document.createElement('li')
+        li.style.backgroundColor = "red"
+        li.appendChild(document.createTextNode(langName))
+        document.querySelector('.language').appendChild(li)
+    }
+    addOptiLanguage('Typescript'); // 2 way for optimize way and also for big projects
+    addOptiLanguage('Ruby');
+
+    // With Variable
+
+    function addVarLanguage (languageName) {
+        const li = document.createElement('li')
+        const addLang = document.createTextNode(languageName)
+        li.appendChild(addLang)
+        document.querySelector('.language').appendChild(li)
+    }
+    addVarLanguage('Java')
+
+    // Without Function
+
+    const li = document.createElement('li')
+    const newText = document.createTextNode('Phython')
+    li.appendChild(newText)
+    document.querySelector('.language').appendChild(li) // 3 way without variable
+
+    // Edit
+    const secondLang = document.querySelector('li:nth-child(2)')
+    // secondLang.innerHTML = 'C++'
+    const replaceSecondLang = document.createElement('li')
+    replaceSecondLang.innerHTML = 'C++'
+    secondLang.replaceWith(replaceSecondLang)
+    
+    // edit
+    const lastLang = document.querySelector('li:last-child')
+    lastLang.outerHTML = '<li>SQL</li>'
+
+    // Remove
+    const fourthLang = document.querySelector('li:nth-child(4)')
+    fourthLang.remove()
 </script>
 </html>

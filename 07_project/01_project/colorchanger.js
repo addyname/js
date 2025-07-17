@@ -24,12 +24,12 @@ allButton.forEach((button) => {
       //   textColor.style.color = "#fff";
       //   textColor.style.backgroundColor = "purple";
       //   break;
-
       // case "reset":
       //   body.style.backgroundColor = "initial";
       //   textColor.style.color = "initial";
       //   textColor.style.backgroundColor = "initial";
       //   break; // We have to add loop for working this on all heading classes. Because this won't work on a NodeList.
+      
       case "text-color":
         textColor.forEach((heading) => {
           heading.style.color = "#fff";

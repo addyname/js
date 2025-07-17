@@ -35,6 +35,7 @@ allButton.forEach((button) => {
       default:
         console.log("No color found.");
         break;
+        
     }
   });
 });

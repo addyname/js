@@ -37,11 +37,16 @@ let calculateWeight;
   }
 
   let trainingIntensity;
-  if (activity === 'light') {
+  if (activity === 'no-training') {
+    trainingIntensity = 0.9;
+  }
+  else if (activity === 'light') {
     trainingIntensity = 1.3;
-  }else if (activity === 'medium') {
+  }
+  else if (activity === 'medium') {
     trainingIntensity = 1.5;
-  }else if (activity === "hard") {
+  }
+  else if (activity === "hard") {
     trainingIntensity = 1.8;
   }
 

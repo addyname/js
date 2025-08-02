@@ -29,7 +29,7 @@
     
     const lastName = document.createElement('li')
     const addLastName = document.createTextNode('Ahmad')
-    lastName.id = Math.floor(Math.random()*10 + 1)
+    lastName.id = Math.floor(Math.random()*10 + 1) // lastName.id = "id-" + Date.now(); // unique based on timestamp and best way
     lastName.style.backgroundColor = getBgColors()
     lastName.appendChild(addLastName)
     document.querySelector('.create-name').appendChild(lastName);

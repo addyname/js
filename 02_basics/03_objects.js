@@ -27,6 +27,12 @@ JsUser.email = "hitesh@chatgpt.com"
 JsUser.email = "hitesh@microsoft.com"
 // console.log(JsUser);
 
+const userNameReturn = "Adnan Ahmad"
+JsUser.greeting = function() {
+    return `Hi, myself ${userNameReturn}`
+}
+console.log(JsUser.greeting())
+
 const userName = "Adnan Ahmad"
 JsUser.greeting = function() {
     console.log(`Hi, myself ${userName}`)

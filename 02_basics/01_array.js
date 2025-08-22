@@ -16,11 +16,11 @@ const joinArray = myArray.join() // Adds all the elements of an array into a str
 // console.log(myArray)
 // console.log(joinArray) 
 
- // slice, splice
+// slice, splice
 const sliceArray = [0, 1, 2, 3, 4, 5]
 console.log(sliceArray.slice(0,3)) // Returns a copy of a section of an array. For both start and end, a negative index can be used to indicate an offset from the end of the array. The beginning index of the specified portion of the array. If start is undefined, then the slice begins at index 0.
 console.log(sliceArray)
 
-const spliceArray = [0, 1, 2, 3, 4, 5]
+const spliceArray = [0, 1, 2, 3, 4, 5, 6]
 console.log(spliceArray.splice(0,3)) // Removes elements from an array and, if necessary, inserts new elements in their place, returning the deleted elements.
 console.log(spliceArray)
